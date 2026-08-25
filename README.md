@@ -1,37 +1,9 @@
 <div align="center">
 
-  <!-- Glowing Title Banner -->
-  <svg width="100%" height="90" viewBox="0 0 700 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <!-- Neon Glow Filter -->
-      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="6" result="blur1" />
-        <feGaussianBlur stdDeviation="14" result="blur2" />
-        <feMerge>
-          <feMergeNode in="blur2" />
-          <feMergeNode in="blur1" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-
-      <!-- Neon Gradient -->
-      <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#00F2FE" />
-        <stop offset="50%" stop-color="#4FACFE" />
-        <stop offset="100%" stop-color="#00FF87" />
-      </linearGradient>
-    </defs>
-
-    <!-- Glowing Background Layer -->
-    <text x="50%" y="60" text-anchor="middle" fill="url(#neonGradient)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="44" letter-spacing="4" filter="url(#glow)" opacity="0.85">
-      VIRTUAL COUNTER
-    </text>
-
-    <!-- Sharp Foreground Layer -->
-    <text x="50%" y="60" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="44" letter-spacing="4">
-      VIRTUAL COUNTER
-    </text>
-  </svg>
+  <!-- Glowing Header Image -->
+  <a href="https://github.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=40&duration=3000&pause=1000&color=00F2FE&center=true&vCenter=true&multiline=false&width=600&height=80&lines=VIRTUAL+COUNTER" alt="Virtual Counter" />
+  </a>
 
   <p><em>Modern, High-Performance Desktop Restaurant Management & POS Suite</em></p>
 
