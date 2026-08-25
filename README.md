@@ -18,8 +18,6 @@
   </p>
 
 </div>
-                                                                           
-                        [ RESTAURANT POS SYSTEM ]
 
 
 A desktop Point of Sale (POS) and restaurant management system built in Python using **Tkinter** and **SQLite**. The application streamlines order processing, menu item management, billing with automatic subtotal and discount calculations, PDF invoice generation, and sales dashboard analytics.
