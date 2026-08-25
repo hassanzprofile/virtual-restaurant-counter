@@ -1,10 +1,51 @@
-```text
- __      ___      _               _    _____                 _            
- \ \    / (_)    | |             | |  / ____|               | |           
-  \ \  / / _ _ __| |_ _   _  __ _| | | |     ___  _   _ _ __ | |_ ___ _ __ 
-   \ \/ / | | '__| __| | | |/ _` | | | |    / _ \| | | | '_ \| __/ _ \ '__|
-    \  /  | | |  | |_| |_| | (_| | | | |___| (_) | |_| | | | | ||  __/ |   
-     \/   |_|_|   \__|\__,_|\__,_|_|  \_____\___/ \__,_|_| |_|\__\___|_|   
+<div align="center">
+
+  <!-- Glowing Title Banner -->
+  <svg width="100%" height="90" viewBox="0 0 700 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Neon Glow Filter -->
+      <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="6" result="blur1" />
+        <feGaussianBlur stdDeviation="14" result="blur2" />
+        <feMerge>
+          <feMergeNode in="blur2" />
+          <feMergeNode in="blur1" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+
+      <!-- Neon Gradient -->
+      <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00F2FE" />
+        <stop offset="50%" stop-color="#4FACFE" />
+        <stop offset="100%" stop-color="#00FF87" />
+      </linearGradient>
+    </defs>
+
+    <!-- Glowing Background Layer -->
+    <text x="50%" y="60" text-anchor="middle" fill="url(#neonGradient)" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="44" letter-spacing="4" filter="url(#glow)" opacity="0.85">
+      VIRTUAL COUNTER
+    </text>
+
+    <!-- Sharp Foreground Layer -->
+    <text x="50%" y="60" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="44" letter-spacing="4">
+      VIRTUAL COUNTER
+    </text>
+  </svg>
+
+  <p><em>Modern, High-Performance Desktop Restaurant Management & POS Suite</em></p>
+
+  <!-- Badges -->
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+    <img src="https://img.shields.io/badge/GUI-Tkinter-38B2AC?style=for-the-badge&logo=tcl&logoColor=white" alt="Tkinter" />
+    <img src="https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+    <img src="https://img.shields.io/badge/Reports-ReportLab%20PDF-E74C3C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="ReportLab" />
+    <img src="https://img.shields.io/badge/Analytics-Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib" />
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License" />
+  </p>
+
+</div>
                                                                            
                         [ RESTAURANT POS SYSTEM ]
 
