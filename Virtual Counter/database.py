@@ -283,3 +283,4 @@ def get_sales_by_category(date_from=None, date_to=None):
             params.append(date_to)
         q += " GROUP BY m.category ORDER BY revenue DESC"
         return [dict(r) for r in con.execute(q, params).fetchall()]
+        
