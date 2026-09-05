@@ -207,3 +207,4 @@ class SalesTab(tk.Frame):
         if inv.get("notes"):
             tk.Label(dlg, text=f"Note: {inv['notes']}", bg="white",
                      font=("Segoe UI", 9), fg="#888").pack(pady=(0, 4))
+        
