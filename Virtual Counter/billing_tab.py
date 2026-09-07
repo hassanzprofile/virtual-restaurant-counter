@@ -373,3 +373,4 @@ class BillingTab(tk.Frame):
                                 f"Invoice #{invoice_no} saved successfully!\nTotal: Rs. {total:,.0f}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to finalize invoice: {e}")
+        
